@@ -66,7 +66,7 @@ module Locomotive
 
       end
 
-      ::Liquid::Template.register_tag('for', For)
+      # ::Liquid::Template.register_tag('for', For)
 
     end
   end
