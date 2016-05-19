@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.version     = Locomotive::LiquidExtensions::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['Didier Lafforgue']
-  s.email       = ['did@locomotivecms.com']
+  s.email       = ['errandir@gmail.com']
   s.homepage    = 'http://www.locomotivecms.com'
   s.summary     = 'LocomotiveCMS Liquid Extensions'
   s.description = 'Extra liquid tags, filters for LocomotiveCMS'
@@ -22,10 +22,10 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rspec'
   s.add_development_dependency 'mocha'
   s.add_development_dependency 'rake'
-  s.add_development_dependency 'activesupport', '~> 3'
+  s.add_development_dependency 'activesupport'#, '~> 3'
 
   s.add_dependency 'pony',                  '~> 1.8'
-  s.add_dependency 'locomotivecms-solid',   '~> 0.2.2.1'
+  s.add_dependency 'locomotivecms-solid'#,   '~> 0.2.2.1'
 
   # hosting (LocomotiveCMS engine)
   # s.add_dependency 'locomotivecms_solid', '~> 0.2.2'
