@@ -9,6 +9,7 @@ end
 Liquid::Template.register_filter(Locomotive::LiquidExtensions::Filters::Number)
 Liquid::Template.register_filter(Locomotive::LiquidExtensions::Filters::Math)
 Liquid::Template.register_filter(Locomotive::LiquidExtensions::Filters::Date)
+Liquid::Template.register_filter(Locomotive::LiquidExtensions::Filters::Collection)
 Liquid::Template.register_filter(Locomotive::LiquidExtensions::Filters::Sample)
 Liquid::Template.register_filter(Locomotive::LiquidExtensions::Filters::Json)
 Liquid::Template.register_filter(Locomotive::LiquidExtensions::Filters::Hexdigest)
