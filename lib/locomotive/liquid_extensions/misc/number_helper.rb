@@ -5,7 +5,7 @@ unless defined?(Rails)
   require 'active_support/core_ext/hash/keys'
   require 'active_support/core_ext/hash/reverse_merge'
   require 'active_support/core_ext/big_decimal/conversions'
-  require 'active_support/core_ext/float/rounding'
+  # require 'active_support/core_ext/float/rounding'
   require 'active_support/core_ext/object/blank'
   require 'active_support/core_ext/string/output_safety'
 
