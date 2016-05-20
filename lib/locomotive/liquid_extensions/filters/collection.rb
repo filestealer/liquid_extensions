@@ -7,7 +7,7 @@ module Locomotive
 				end
 
 				def slice(input, *opts)
-					input.each.to_a.slice(opts[0].to_i, (opts[1] || -1).to_i)
+					input.each.to_a.slice(opts[0].to_i, (opts[1] || 1).to_i)
 				end
 			end
 		end
