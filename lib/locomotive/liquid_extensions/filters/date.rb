@@ -5,6 +5,9 @@ module Locomotive
 	module LiquidExtensions
 		module Filters
 			module Date
+				def month_name(input)
+					Date::MONTHNAMES[Time.parse(input.to_s).month].downcase
+				end
 				def parse_time(input)
 					Time.parse(input)
 				end
