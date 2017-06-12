@@ -22,6 +22,10 @@ module Locomotive
 				def debug_it(input, *opts)
 					binding.pry
 				end
+
+				def inc_views(input, *opts)
+					input.content_type
+				end
 			end
 		end
 	end
