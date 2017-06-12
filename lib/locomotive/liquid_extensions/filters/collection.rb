@@ -11,7 +11,7 @@ module Locomotive
 				end
 
 				def log_it(input, *opts)
-					Rails.logger.fatal "XDBG>>>#{input.inspect}"
+					::Rails.logger.fatal "XDBG>>>#{input.inspect}"
 					input
 				end
 
@@ -21,10 +21,6 @@ module Locomotive
 
 				def debug_it(input, *opts)
 					binding.pry
-				end
-
-				def inc_views(input, *opts)
-					input.content_type
 				end
 			end
 		end
